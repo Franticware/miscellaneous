@@ -1,0 +1,3 @@
+# This file should be in /etc/udev/rules.d/ to use MD-Dumper without administrator privileges.
+SUBSYSTEM=="usb", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", MODE="0666"
+
