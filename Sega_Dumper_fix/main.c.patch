@@ -1,0 +1,27 @@
+--- main.c.orig	2021-02-05 21:29:45.412223317 +0100
++++ main.c	2021-02-05 22:06:09.230002989 +0100
+@@ -175,7 +175,7 @@
+     unsigned char *buffer_header = NULL;
+     unsigned char region[5];
+     unsigned char odd=0;
+-    char *game_region = NULL;
++    char game_region[16] = {0}; // 16 to be safe, 4 should suffice
+     int choixMenu=0;
+     int checksum_header = 0;
+     unsigned char manufacturer_id=0;
+@@ -341,7 +341,6 @@
+         {
+             if(region[i]==0x20)
+             {
+-                game_region = (char *)malloc(i);
+                 memcpy((unsigned char *)game_region, (unsigned char *)buffer_header +0xF0, i);
+                 game_region[i] = '\0';
+                 break;
+@@ -350,7 +349,6 @@
+ 
+         if(game_region[0]=='0')
+         {
+-            game_region = (char *)malloc(4);
+             memcpy((char *)game_region, (char *)unk, 3);
+             game_region[3] = '\0';
+         }
