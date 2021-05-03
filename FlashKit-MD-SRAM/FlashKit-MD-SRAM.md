@@ -1,6 +1,7 @@
 [FlashKit-MD clone from AliExpress](https://www.aliexpress.com/item/1005001515149225.html)  can be modded to include battery backed SRAM.
 
-####Parts for the save function:
+Parts for the save function:
+----------------------------
 
 R1  100K (replace 0R)  
 R2  100K  
@@ -22,6 +23,7 @@ Q3  MMBT2222A
 
 BAT1 CR1220 Holder  
 
-####Board before and after the mod:
+Board before and after the mod:
+-------------------------------
 
 ![FlashKit-MD](FlashKit-MD-SRAM.jpg)
