@@ -1,5 +1,9 @@
 [FlashKit-MD clone from AliExpress](https://www.aliexpress.com/item/1005001515149225.html)  can be modded to include battery backed SRAM.
 
+It was tested with Wolfenstein 3d (homebrew) and Sonic 3.
+
+Please be aware that it is possible that it will restrict ROM size to just 2 MB (instead of 4).
+
 Parts for the save function:
 ----------------------------
 
