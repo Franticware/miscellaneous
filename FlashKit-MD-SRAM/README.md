@@ -2,7 +2,9 @@
 
 It was tested with Wolfenstein 3d (homebrew) and Sonic 3.
 
-Please be aware that it is possible that it will restrict ROM size to just 2 MB (instead of 4).
+Please be aware that it will probably restrict ROM size to just 2 MB (instead of full 4 MB) - Pocahontas did not work after this mod. So it might be better to just go with the ready made 2MB Cart with the save function that is offered at the same link.
+
+I am currently not sure if it is possible to change this mod so that it would support both options (4 MB without save, 2 MB with save) at the same time, be it automatically or with some kind of a switch.
 
 Parts for the save function:
 ----------------------------
